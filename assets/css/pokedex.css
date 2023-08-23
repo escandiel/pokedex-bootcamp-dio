@@ -158,11 +158,17 @@
   .pokemons {
     grid-template-columns: 1fr 1fr;
   }
+  .pagination button {
+    width: 30%;
+  }
 }
 
 @media screen and (min-width: 576px) {
   .pokemons {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .pagination button {
+    width: 30%;
   }
 }
 
