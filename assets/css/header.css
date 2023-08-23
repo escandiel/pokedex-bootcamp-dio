@@ -1,0 +1,23 @@
+/* header {
+  padding: 16px;
+} */
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  margin: 32px 0 0 0;
+}
+
+span {
+  font-size: 16px;
+}
+
+.icon-anchor {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #007bff; /* Cor do ícone */
+  text-decoration: none; /* Remove sublinhado padrão */
+}

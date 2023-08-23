@@ -1,0 +1,31 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.search-bar {
+  width: 40%;
+  height: 48px;
+  border: none;
+  border-radius: 24px;
+  padding-left: 16px;
+  background-color: #f0cd56;
+}
+
+.search-bar::placeholder {
+  color: #150b60;
+}
+
+@media screen and (max-width: 900px) {
+  .search-bar {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .search-bar {
+    width: 150px;
+  }
+}
