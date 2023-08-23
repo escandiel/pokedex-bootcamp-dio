@@ -6,9 +6,17 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  transform: scale(1.5); /* Aumenta um pouco o tamanho ao passar o mouse */
+}
+
 body {
   background-image: url("/assets/bg-pokemon.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   background-position: center;
 }
